@@ -14,7 +14,7 @@ class Drop(Sprite):
         self.rect = self.image.get_rect()
 
         self.rect.x = 0
-        self.rect.y = 0#-self.rect.height
+        self.rect.y = -self.rect.height
 
         self.y = float(self.rect.y)
 
