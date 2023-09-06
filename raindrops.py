@@ -21,8 +21,7 @@ class Raindrops:
             self.create_rain()
             self._update_drops()
             self._update_screen()
-            print(len(self.drops))
-
+            
             self.clock.tick(60)
             pygame.display.flip()
 
