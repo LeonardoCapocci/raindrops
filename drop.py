@@ -20,4 +20,4 @@ class Drop(Sprite):
 
     def update(self):
         """Updates raindrop positions."""
-        self.rect.y += 5
+        self.rect.y += 7
