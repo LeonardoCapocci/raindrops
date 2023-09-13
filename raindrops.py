@@ -11,7 +11,7 @@ class Raindrops:
         self.screen = pygame.display.set_mode((1280,720))
         self.screen_rect = self.screen.get_rect()
         self.clock = pygame.time.Clock()
-        self.bg_color = (151, 204, 255)
+        self.bg_color = (203, 230, 255)
         self.drops = pygame.sprite.Group()
     
     def run_app(self):
